@@ -2,17 +2,19 @@
 import Layout from "../layouts/Layout.astro";
 import Hero from "../components/Hero.astro";
 import About from "../components/About.astro";
-import WorkExperience from "../components/WorkExperience.astro";
 import Education from "../components/Education.astro";
 import Projects from "../components/Projects.astro";
 import Hackathons from "../components/Hackathons.astro";
 import Contact from "../components/Contact.astro";
+// import WorkExperience from "../components/WorkExperience.astro";
+import WorkExperienceList from "../components/WorkExperienceList.astro";
 
 // Configure your portfolio information here
 const portfolioData = {
   name: "Your Name",
   title: "Full Stack Developer & Designer",
-  description: "I'm a passionate developer who loves building amazing web experiences. I specialize in modern web technologies and always excited to learn new things.",
+  description:
+    "I'm a passionate developer who loves building amazing web experiences. I specialize in modern web technologies and always excited to learn new things.",
   avatarUrl: "/avatar.png", // Add your avatar image to public folder
   location: "San Francisco, CA",
   email: "hello@example.com",
@@ -24,7 +26,8 @@ const portfolioData = {
   },
   about: {
     title: "About Me",
-    description: "I'm a full-stack developer with a passion for creating beautiful, functional, and user-friendly web applications. With experience in modern frameworks and technologies, I love turning ideas into reality through code. When I'm not coding, you can find me exploring new technologies, contributing to open source, or enjoying a good cup of coffee.",
+    description:
+      "I'm a full-stack developer with a passion for creating beautiful, functional, and user-friendly web applications. With experience in modern frameworks and technologies, I love turning ideas into reality through code. When I'm not coding, you can find me exploring new technologies, contributing to open source, or enjoying a good cup of coffee.",
   },
 };
 ---
@@ -51,7 +54,7 @@ const portfolioData = {
     />
 
     <!-- Work Experience Section -->
-    <WorkExperience />
+    <WorkExperienceList />
 
     <!-- Education Section -->
     <Education />

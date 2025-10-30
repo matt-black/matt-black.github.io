@@ -1,6 +1,6 @@
 ---
-company: "ABC Inc"
-logo: "https://avatar.iran.liara.run/public/job/lawyer/female"
+company: "Startup Inc"
+logo: "https://avatar.iran.liara.run/public/job/lawyer/male"
 position: "Frontend Developer"
 description: "Built responsive web applications using Vue.js and modern CSS frameworks. Collaborated with designers to create pixel-perfect user interfaces."
 startDate: "2019-01-15"
