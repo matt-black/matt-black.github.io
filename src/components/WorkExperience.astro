@@ -23,20 +23,20 @@ function formatPeriod(startDate: Date, endDate?: Date) {
 ---
 
 <section id="work" class="py-20 px-4 bg-base-200">
-  <div class="max-w-6xl mx-auto">
+  <div class="max-w-4xl mx-auto">
     <h2 class="text-4xl font-bold mb-12 text-center">Work Experience</h2>
 
     <ul class="timeline timeline-vertical timeline-snap-icon">
       {
         sortedWork.map((work, index) => (
           <li>
-            {index > 0 && <hr class="bg-primary" />}
+            {index > 0 && <hr class="bg-primary-content" />}
             <div class="timeline-middle">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 viewBox="0 0 20 20"
                 fill="currentColor"
-                class="w-5 h-5 text-primary"
+                class="w-5 h-5 fill-primary"
               >
                 <path
                   fill-rule="evenodd"
@@ -45,9 +45,11 @@ function formatPeriod(startDate: Date, endDate?: Date) {
                 />
               </svg>
             </div>
-            <div class={`timeline-${index % 2 === 0 ? "start" : "end"} mb-10`}>
+            <div
+              class={`timeline-${index % 2 === 0 ? "start" : "end"} pt-2 mb-10`}
+            >
               <time
-                class={`font-mono text-sm text-base-content/70 block ${index % 2 === 0 ? "text-end" : ""}`}
+                class={`font-mono text-sm text-base-content/70 block italic ${index % 2 === 0 ? "text-end pr-1" : "pl-1"}`}
               >
                 {formatPeriod(work.data.startDate, work.data.endDate)}
               </time>
@@ -75,7 +77,7 @@ function formatPeriod(startDate: Date, endDate?: Date) {
                         href={work.data.link}
                         target="_blank"
                         rel="noopener noreferrer"
-                        class="btn btn-sm btn-outline btn-primary"
+                        class="link link-hover"
                       >
                         View Company
                       </a>
@@ -84,7 +86,7 @@ function formatPeriod(startDate: Date, endDate?: Date) {
                 </div>
               </div>
             </div>
-            {index < sortedWork.length - 1 && <hr class="bg-primary" />}
+            {index < sortedWork.length - 1 && <hr class="bg-primary-content" />}
           </li>
         ))
       }
