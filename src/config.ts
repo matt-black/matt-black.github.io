@@ -17,8 +17,8 @@ export interface SocialLinks {
   twitter?: string;
   bluesky?: string;
   instagram?: string;
-  youTube?: string;
-  codetips?: string;
+  googleScholar?: string;
+  cv?: string;
 }
 
 /**
@@ -95,25 +95,25 @@ export interface SiteConfig {
  * Update these values to customize your portfolio
  */
 export const siteConfig: SiteConfig = {
-  name: "🌻 Bloomfolio",
-  title: "Astro Portfolio Template built with 🌼 DaisyUI",
+  name: "Matt",
+  title: "and this is my personal website and portfolio",
   description:
-    "A modern, responsive, and customizable portfolio template built with Astro and DaisyUI. Perfect for developers, designers, and creatives to showcase their work and skills.",
-  avatar: "../assets/bloomfolio.png",
-  location: "🇧🇷 Brazil",
-  email: "hello@example.com",
+    "I'm a research scientist and engineer interested in developing the next generation of scientific and biomedical innovations.",
+  avatar: "../assets/my_face.png",
+  location: "🏴󠁵󠁳󠁮󠁪󠁿 NJ, USA",
+  email: "matt.black7@gmail.com",
   socialLinks: {
-    github: "https://github.com/lauroguedes",
-    linkedin: "https://linkedin.com/in/lauroguedes",
-    twitter: "https://twitter.com/leowg",
-    bluesky: "https://bsky.app/profile/lauroguedes.bsky.social",
-    instagram: "https://instagram.com/lauroguedes.dev",
-    youTube: "https://youtube.com/leowgweb",
-    codetips: "https://codetips.cloud/u/lauroguedes",
+    github: "https://github.com/matt-black",
+    linkedin: "",
+    twitter: "",
+    bluesky: "",
+    instagram: "",
+    googleScholar: "https://scholar.google.com/citations?user=EfY83M0AAAAJ&hl=en",
+    cv: "/assets/cv.pdf",
   },
   enableThemeSelector: true,
   extraLinks: {
-    enable: true,
+    enable: false,
     links: [
       {
         link: "/blog/guides/bloomfolio-complete-guide",
@@ -139,7 +139,7 @@ export const siteConfig: SiteConfig = {
   },
   sections: {
     about: true,
-    projects: true,
+    projects: false,
     blog: true,
     work: true,
     education: true,

@@ -1,6 +1,8 @@
 ---
 title: "About Me"
-photo: "https://api.dicebear.com/9.x/adventurer-neutral/svg?seed=Destiny&scale=90&backgroundColor=763900,9e5622,ecad80,f2d3b1,c0aede,b6e3f4"
+photo: "https://api.dicebear.com/9.x/shapes/svg?seed=Mackenzie"
 ---
 
-I'm a full-stack developer with a passion for creating beautiful, functional, and user-friendly web applications. With experience in **modern frameworks and technologies**, I love turning ideas into reality through code. When I'm not coding, you can find me **exploring new technologies**, contributing to open source, or enjoying a good cup of coffee.
+I'm a biophysicist and engineer interested in cell biology, machine learning, and microscopy. 
+I'm currently a postdoctoral scientist in the labs of Drs. Sabine Petry and Josh Shaevitz, where I am using expansion microscopy to create the first nanoscale spatial map of the human mitotic spindle capable of resolving both individual microtubules as well as the many microtubule-associated proteins (*e.g.* motors, nucleators, crosslinkers) that enable spindle function.
+Outside of the lab, I am an avid runner and cyclist. 

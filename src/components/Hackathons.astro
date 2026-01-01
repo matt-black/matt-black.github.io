@@ -28,12 +28,9 @@ function formatPeriod(startDate: Date, endDate?: Date) {
 <section id="hackathons" class="py-20 px-4">
   <div class="max-w-4xl mx-auto">
     <div class="text-center mb-12">
-      <h2 class="text-4xl font-bold mb-4">I like building things</h2>
+      <h2 class="text-4xl font-bold mb-4">I like building</h2>
       <p class="text-lg text-base-content/70">
-        During my time in university, I attended multiple hackathons. People
-        from around the country would come together and build incredible things
-        in 2-3 days. It was eye-opening to see the endless possibilities brought
-        to life by a group of motivated and passionate individuals.
+        devices and software that enable scientific discovery. Below is a list of open source projects and code repositories I have developed that I have used or am actively using in my research. 
       </p>
     </div>
 
@@ -54,12 +51,12 @@ function formatPeriod(startDate: Date, endDate?: Date) {
                   </div>
                 )}
                 <div class="flex-1">
-                  <time class="text-sm text-base-content/60">
+                  {/* <time class="text-sm text-base-content/60">
                     {formatPeriod(
                       hackathon.data.startDate,
                       hackathon.data.endDate
                     )}
-                  </time>
+                  </time> */}
                   <h3 class="card-title mt-1">{hackathon.data.title}</h3>
                   <p class="text-sm text-primary font-semibold">
                     {hackathon.data.location}

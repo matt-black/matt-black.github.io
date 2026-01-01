@@ -1,10 +1,14 @@
 ---
-title: "University of AI"
-subtitle: "Bachelor of Information Systems"
+title: "Princeton University"
+subtitle: "M.A., Quantitative & Computational Biology"
 logo: "https://api.dicebear.com/9.x/icons/svg?seed=Sophia"
-startDate: "2015-09-01"
-endDate: "2019-05-30"
-link: "https://university.edu"
+startDate: "2017-09-01"
+endDate: "2020-01-31"
+link: "https://princeton.edu"
 ---
 
-Focused on software engineering, algorithms, and data structures. Graduated with honors and participated in various coding competitions.
+Completion of required coursework and passed Generals examination.
+
+**GPA**: 3.7 / 4.0
+
+**Notable Coursework**: Genomics and Computational Molecular Biology, Natural Algorithms, Biophysical Chemistry I, Biological Chemistry II

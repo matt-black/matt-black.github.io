@@ -1,10 +1,14 @@
 ---
-title: "University of Systems"
-subtitle: "Bachelor of Engineering in Information Technology"
+title: "University of Maryland, College Park"
+subtitle: "B.S., Bioengineering"
 logo: "https://api.dicebear.com/9.x/icons/svg?seed=Brian"
-startDate: "2015-09-01"
-endDate: "2019-05-30"
-link: "https://university.edu"
+startDate: "2009-09-01"
+endDate: "2013-05-30"
+link: "https://umd.edu"
 ---
 
-Focused on software engineering, algorithms, and data structures. Graduated with honors and participated in various coding competitions.
+**GPA**: 3.97, *Magna Cum Laude*
+
+**Capstone Project**: Electronic tracheal stent with remote monitoring
+
+**Notable coursework**: Bioinstrumentation, Biological Systems Control, Biofluids, Biomechanics
