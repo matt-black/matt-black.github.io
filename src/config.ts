@@ -99,8 +99,8 @@ export const siteConfig: SiteConfig = {
   title: "and this is my personal website and portfolio",
   description:
     "I'm a research scientist and engineer interested in developing the next generation of scientific and biomedical innovations.",
-  avatar: "../assets/my_face.png",
-  location: "🏴󠁵󠁳󠁮󠁪󠁿 NJ, USA",
+  avatar: "/avatar.png",
+  location: "NJ, USA",
   email: "matt.black7@gmail.com",
   socialLinks: {
     github: "https://github.com/matt-black",
@@ -109,7 +109,7 @@ export const siteConfig: SiteConfig = {
     bluesky: "",
     instagram: "",
     googleScholar: "https://scholar.google.com/citations?user=EfY83M0AAAAJ&hl=en",
-    cv: "/assets/cv.pdf",
+    cv: "/cv.pdf",
   },
   enableThemeSelector: true,
   extraLinks: {
